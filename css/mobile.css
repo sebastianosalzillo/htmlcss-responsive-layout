@@ -7,14 +7,19 @@
 /* COMMON */
 
 
-
+body {
+    background-color: rgb(213, 201, 201);
+}
+header {
+    background-color: #fff;
+    color: yellow;
+}
 
 .container {
     margin: 0 auto;
     width: 100%;
 
-    background-color: rgb(197, 191, 191);
-    /* debug */
+   
 
     min-height: 600px;
   
