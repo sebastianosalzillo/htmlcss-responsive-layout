@@ -9,6 +9,8 @@
 
 body {
     background-color: rgb(213, 201, 201);
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #fff;
@@ -41,12 +43,17 @@ li {
 img {
     width: 100%;
 }
+ul {
+    padding: 0;
+    margin: 0;
+}
 
 /* Nav_BAR */
 
 .nav-title {
     margin: 0 0;
     text-align: center;
+    font-family: "nerko one";
 }
 
 
@@ -112,17 +119,22 @@ text-align: center;
 
 
 /* Footer */
+footer {
+    background-color: #361338;
+    
+}
 .footer {
-    margin: 0 auto;
+    
    text-align: center;
     color: #fff;
-    background-color: violet;
+    
 }
 .left{
 
 }
 
 .rigt li {
+    font-size: 20px;
    display: inline-block;
    text-decoration: underline;
 }
