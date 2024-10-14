@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px ){
+
+    .display-none {
+        display: block;
+        
+    }
+    
+
+    .social-section span {
+        display: inline-block;
+        
+    }
+
+    .video-title span {
+        display: inline-block;
+    }
+
+h1{
+    text-align: start;
+}
+
+ .img-presetation  {
+    display: float;
+}
+
+}
