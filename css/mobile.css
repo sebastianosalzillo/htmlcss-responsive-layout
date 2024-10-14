@@ -51,7 +51,7 @@ img {
 /* Video-section */
 iframe {
     width: 100%;
-    aspect-ratio: 2;
+    aspect-ratio: 560/315;
 }
 .video-description {
     padding: 10px 10px;
@@ -87,21 +87,22 @@ iframe {
 /* Presentation */
 
 .img-presentation {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     margin: auto;
-
+text-align: center;
 }
-
-.img {
-    text-align: center;
+.img-presentation p{
+    text-align: left;
 }
 
 .img-presentation img {
     width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
-.text-presentation {}
+
 
 
 

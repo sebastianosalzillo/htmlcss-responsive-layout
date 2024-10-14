@@ -1,4 +1,7 @@
 @media screen and (min-width: 768px ){
+    .container {
+        width: 90%;
+    }
 
     .display-none {
         display: block;
@@ -21,6 +24,13 @@ h1{
 
  .img-presetation  {
     display: float;
+}
+
+.img-presentation img{
+    float: left;
+    margin: 0 0;
+    width: 40%;
+    margin-right: 20px;
 }
 
 }
